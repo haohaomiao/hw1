@@ -29,7 +29,7 @@ class SeleniumTestCase(unittest.TestCase):
         # options.add_argument('headless')
         options.add_experimental_option("excludeSwitches", ["enable-logging"])
         # You need to change this to your actual binary path.
-        # options.binary_location = "C:\Program Files\Google\Chrome Dev\Application\chrome.exe"
+        #options.binary_location = "C:\Program Files\Google\Chrome Dev\Application\chrome.exe"
         # You need to change this to your actual web driver path.
         cls.client = webdriver.Chrome(
             'drivers/chromedriver.exe', chrome_options=options)
