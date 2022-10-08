@@ -8,3 +8,4 @@
 
 
 # TODO: add flake8 here.
+flake8 .

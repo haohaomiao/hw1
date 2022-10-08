@@ -1,2 +1,15 @@
 [flake8]
 # TODO: 补充flake8配置文件
+# 忽略.git, __pycache__, simpbbs_env
+exclude = .git, __pycache__, simpbbs_env
+per-file-ignores = 
+    # 对app/services/post.py忽略E501,
+    app/services/post.py:E501
+    # 对app/services/user.py忽略E501错误,
+    app/services/user.py:E501
+    # tests/test_e2e.py忽略E501错误，
+    tests/test_e2e.py:E501
+    # 对tests/test_api.py忽略E501错误
+    tests/test_api.py:E501
+
+
