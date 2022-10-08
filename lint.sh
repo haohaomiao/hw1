@@ -1,11 +1,11 @@
 # TODO: add autopep8 here.
-autopep8 --in-place -r -a  ./
+autopep8 --exclude=simpbbs_env --in-place -r -a  ./
 
 # TODO: add autoflake here.
-autoflake --in-place -r --remove-unused-variables ./
+autoflake --exclude=simpbbs_env --in-place -r --remove-unused-variables ./
 
 # TODO: add isort here.
-isort ./
+isort --sg=simpbbs_env ./
 
 # TODO: add flake8 here.
 flake8 .
