@@ -1,4 +1,3 @@
-from cgi import test
 import unittest
 
 from app.checkers.user import register_params_check

@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# from nis import match
 import re
 def register_params_check(content):
     """
